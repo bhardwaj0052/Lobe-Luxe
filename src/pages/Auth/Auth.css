@@ -1,0 +1,128 @@
+.page-container {
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #FAF9F6, #FFFDF7); /* Replace with your theme vars if needed */
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.auth-card {
+  background: white;
+  padding: 48px;
+  border-radius: 16px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.auth-toggle {
+  display: flex;
+  background: #F5F4F1;
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 32px;
+}
+
+.auth-toggle button {
+  flex: 1;
+  padding: 12px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.auth-toggle button.active {
+  background: white;
+  color: #D4AF37;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  position: relative;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #2C2C2C;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #D4AF37;
+  box-shadow: 0 0 0 3px #FEF9E6;
+  outline: none;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 74%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #757575;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.password-toggle:hover {
+  color: #2C2C2C;
+}
+
+.submit-button {
+  padding: 16px;
+  background-color: #D4AF37;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #B8941F;
+  transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error-message {
+  color: #FF5757;
+  background: #FFF5F5;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}

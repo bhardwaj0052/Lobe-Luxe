@@ -1,0 +1,87 @@
+:root {
+    background-color: #ffffff;
+
+}
+:root {
+  /* 🎨 Primary Colors */
+  --primary-50: #FFFDF7;
+  --primary-100: #FEF9E6;
+  --primary-200: #FCF0C0;
+  --primary-300: #F9E799;
+  --primary-400: #F5DD73;
+  --primary-500: #D4AF37; /* Main gold */
+  --primary-600: #B8941F;
+  --primary-700: #9C7A15;
+  --primary-800: #80600C;
+  --primary-900: #644606;
+
+  /* 🌑 Secondary Colors */
+  --secondary-50: #F8F8F8;
+  --secondary-100: #EFEFEF;
+  --secondary-200: #DCDCDC;
+  --secondary-300: #BDBDBD;
+  --secondary-400: #989898;
+  --secondary-500: #757575;
+  --secondary-600: #616161;
+  --secondary-700: #424242;
+  --secondary-800: #2C2C2C; /* Main dark */
+  --secondary-900: #1A1A1A;
+
+  /* ❤️ Accent Colors */
+  --accent-50: #FFF5F5;
+  --accent-100: #FFE8E8;
+  --accent-200: #FFC4C4;
+  --accent-300: #FF9F9F;
+  --accent-400: #FF7B7B;
+  --accent-500: #FF5757;
+  --accent-600: #E04545;
+  --accent-700: #C13333;
+  --accent-800: #A12222;
+  --accent-900: #821111;
+
+  /* 🧱 Backgrounds */
+  --background-primary: #FAF9F6;
+  --background-secondary: #FFFFFF;
+  --background-tertiary: #F5F4F1;
+
+  /* 📝 Text Colors */
+  --text-primary: #2C2C2C;
+  --text-secondary: #757575;
+  --text-light: #989898;
+  --text-inverse: #FFFFFF;
+
+  /* 🧩 Borders */
+  --border-light: #E5E5E5;
+  --border-medium: #BDBDBD;
+  --border-dark: #757575;
+
+  /* 📏 Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+  --spacing-xxxl: 64px;
+
+  /* 🟦 Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 50%;
+
+  /* 🌫️ Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.15);
+
+  /* 📱 Breakpoints */
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-wide: 1200px;
+}
+
+

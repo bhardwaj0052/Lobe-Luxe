@@ -2,18 +2,56 @@
 
 A modern, responsive e-commerce web app built with **React + Vite**, featuring **Firebase Authentication** and scalable architecture.
 
+🌐 **Live Site**: [https://lobe-luxe.firebaseapp.com](https://lobe-luxe.firebaseapp.com)
+
+---
+
 ## 🚀 Tech Stack
-- **React** (with Hooks & Context API)
-- **Vite** (for fast bundling & HMR)
-- **Firebase** (Authentication)
+
+- **React** (Hooks & Context API)
+- **Vite** (for lightning-fast bundling & HMR)
+- **Firebase** (Authentication + Hosting)
 - **Pure CSS** (modular, responsive design)
-- **Global CSS Variables** (for theming)
-- **Centralized Asset Management**
+- **Global CSS Variables** (for consistent theming)
+- **Centralized Asset Management** (for scalable workflows)
+
+---
 
 ## 🔐 Features
-- User Sign Up / Login via Firebase
-- Persistent Auth State via Context
-- Responsive layout with media queries
-- Clean component structure for scalability
 
-## 📁 Project Structure
+- 🔑 User Sign Up / Login via Firebase
+- 🔄 Persistent Auth State using Context
+- 📱 Responsive layout with media queries
+- 🧱 Clean, modular component structure
+- 🎨 Global theming with CSS variables
+
+---
+
+---
+
+## 🚀 Deployment
+
+This project is hosted on **Firebase Hosting** using GitHub Actions for CI/CD.  
+Every push to `main` triggers a build (`npm run build`) and deploys the app to:
+
+🔗 [https://lobe-luxe.firebaseapp.com](https://lobe-luxe.firebaseapp.com)
+
+---
+
+## 📦 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy manually (if needed)
+firebase deploy
+
+
+

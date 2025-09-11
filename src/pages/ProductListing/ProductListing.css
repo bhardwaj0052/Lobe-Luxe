@@ -94,6 +94,9 @@
   .contentArea {
     grid-template-columns: 1fr;
   }
+  .searchBox input{
+    width: 100%;
+  }
 }
 
 .productGrid {

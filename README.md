@@ -24,7 +24,7 @@ A modern, responsive e-commerce web app built with **React + Vite**, featuring *
 - 📱 Responsive layout with media queries
 - 🧱 Clean, modular component structure
 - 🎨 Global theming with CSS variables
-
+        
 ---
 
 ---
